@@ -1,0 +1,39 @@
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid black;
+    margin-top: 20vh;
+    margin-left: 25%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+  
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+
+
+}
+
+.loginform:hover{
+    transform: scale(1.05);
+}
+.loginh2,.loginp1{
+    text-align: center;
+}
+.loginp1{
+    color: rgb(185, 184, 184);
+}
+
+.loginlabel{
+    margin-bottom: 15px;
+}
+.loginbtn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  padding: 5px !important;
+  width: 50%;
+  align-self: center;
+}

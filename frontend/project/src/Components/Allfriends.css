@@ -1,0 +1,41 @@
+.friendsdiv{
+    margin-top: 10vh;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: row;
+}
+.a{
+margin-top: 1vh;
+margin-left: 50vw;
+margin-bottom: 4vh;
+text-decoration: none;
+background-color: rgb(97, 97, 97);
+color: white;
+padding: 6px;
+border-radius: 10px;
+  transition: background-color 1s ease-in-out,color 1s ease-in-out;
+
+}
+.a:hover{
+    background-color: rgb(77, 77, 77);
+    color: red;
+}
+
+table{
+    border: 1px solid rgb(201, 201, 201);
+    border-collapse: collapse;
+    width: 60vw;
+    margin-left: 20vw;
+    
+}
+th,tr{
+    border-bottom:1px solid rgb(201, 201, 201) ;
+     border-right:1px solid rgb(201, 201, 201) ;
+     text-align: center!important;
+     vertical-align: center !important;
+}
+.warn{
+    padding: 4px!important;
+    margin: 5px !important;
+    width: 60px;
+}

@@ -1,0 +1,39 @@
+.form{
+    border: 1px solid rgb(227, 227, 227);
+
+    width: 50vw;
+    margin-top: 10vh;
+    padding: 35px;
+       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8)
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.label{
+    margin-bottom: 5px;
+    color: rgb(95, 93, 93);
+}
+.h2{
+    text-align: center;
+}
+.divbtn{
+    text-align: end;
+    margin-top: 5vh;
+    margin-bottom: 10px;
+    
+
+}
+.divbtn button{
+    margin-right: 5px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    transition: color 1s ease-in-out;
+}
+.link:hover{
+    color: white;
+}
